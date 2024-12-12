@@ -13,6 +13,11 @@ public class Game {
 	}
 
 	void judge() {
-	
+		if (d.me == 6){
+			System.out.println("win!");
+		}
+		else{
+			System.out.println("lose!");
+		}
 	}
 }
